@@ -3,6 +3,7 @@
 venv/
 ENV/
 env/
+target/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

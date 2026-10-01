@@ -1,0 +1,11 @@
+[package]
+name = "trade_planner"
+version = "0.2.0"
+edition = "2021"
+authors = ["CS49990"]
+description = "Bloomberg-inspired Monotone Blocky Trade Planner with A* Search in Rust"
+
+[dependencies]
+ratatui = "0.28"
+crossterm = "0.28"
+serde = { version = "1.0", features = ["derive"] }
